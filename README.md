@@ -11,6 +11,30 @@ Projeto semanal do curso que consistia em criar um site que vende viagens espaci
   <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/demo.gif'>
 </p>
 <br>
+
+## Telas: 
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Welcome.jpg'>
+</p>
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Admin.jpg'>
+</p>
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Rodape.jpg'>
+</p>
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Aprovados.jpg'>
+</p>
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Add%20viagem.jpg'>
+</p>
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Usuario.jpg'>
+</p>
+<p align="center">
+  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/Form%20Usuario.jpg'>
+</p>
+<br>
 <br>
 
 ## Principais tecnologias/ferramentas utilizadas
