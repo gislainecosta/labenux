@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+     font-family: "Agency FB", "Tekton Pro", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h5 {
+    font-size: 1.5vw;
+    margin: 0.5vw 0;
+    font-weight: bold;
+    text-align: center;
+     color: #ff8035;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(250, 170, 117, 0.2), 0 0 2px rgba(243, 166, 65, 0.1);
+    border-bottom: 1px solid #ff5f00;
+}
+
+form {
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+}
+input::placeholder, textarea::placeholder{
+    color: #200d01;
+    padding-left: 0.5vw;
+}
+
+textarea::placeholder{
+    padding-top: 0.5vw;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 5px 0 5px 0;
+    border: 1px solid #200d01;
+    background-color: rgba(255, 234, 221, 0.5);
+    font-size: 14px;
+    margin-top: 1vw;
+}
+
+input:first-of-type{
+    margin-top: 0.5vw;
+}
+
+input:last-of-type, textarea{
+    margin-top: 0.2vw;
+}
+
+input{
+    height: 2vw;
+}
+
+textarea {
+    height: 5vw;
+}
+
+input:disabled {
+    opacity: 0.4;
+}
+
+p.texto-icone-user, p.texto-icone-admin {
+    color: rgba(255, 128, 53, 0.5);
+    font-weight: bold;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+p.texto-icone-admin {
+    font-size: 1.3vw;
+}
+
+p.texto-icone-user:hover, p.texto-icone-admin:hover {
+    color: #5a2303;
+}
+
+#redes-sociais>img {
+    width: 40%;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+#sobre {
+    height: 100%;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#form-iscricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteudo-dialogo {
+    width: 30vw;
+    height: 60vh;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#redes-sociais, #institucional {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#redes-sociais {
+    row-gap: 1vw;
+    height: 50%;
+}
+
+#institucional {
+    row-gap: 0vw;
+    margin-bottom: 1.5vw;
+    height: 35%;
+}
+
+#conteudo-cabecalho, #conteudo-rodape {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+#icones-user, #icones-admin {
+    display: flex;
+    justify-content: space-around;
+}
+
+#icones-user{
+    width: 12vw;
+    align-items: center;
+}
+
+#icones-admin{
+    width: 20vw;
+    align-items: flex-start;
+}
+
+#inputs-pequenos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#conteudo-cabecalho {
+    height: 15vh;
+    width: 94.7vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#conteudo-rodape {
+    width: 98.5vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+#formulario {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+#botao-enviar {
+    margin: 0.5vw 0 1vw 0;
+    width: 10vw;
+}
+
+#titulo-cabecalho {
+    color: rgba(255, 128, 53, 0.7);
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(250, 170, 117, 0.2), 0 0 5px rgba(243, 166, 65, 0.1);
+    font-size: 2.5vw;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+#logo-site {
+    width: 22%;
+}
+
+#autoria{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#by-imagem {
+    width: 15vw;
+    margin-right: 5vw;
+}
+
+.detalhes-candidatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navegacao:hover {
+    color: #5a2303;
+}
+
+.sobre-titulo {
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    color: rgba(255, 128, 53, 0.7);
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(250, 170, 117, 0.2), 0 0 2px rgba(243, 166, 65, 0.1);
+    margin: 1.5vw 0;
+    font-size: 1.7vw;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ff5f00;
+    grid-area: 1/1/2/4;
+    margin:0;
+    padding: 0;
+}
+
+.sobre-texto {
+    text-decoration: #ff5f00;
+    font-weight: bold;
+    font-size: 1.6vw;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.sobre-texto:hover {
+    color: #5a2303;
+}
+
+.input-pequeno{
+    width: 30%;
+}
+.input-pais{
+    width: 150%;
+}
+
+.paineis-candidatos{
+   width: 25vw;
+   margin-bottom: 3%;
+}
+
+.texto-candidatos{
+    color: black;
+    text-align: left;
+    margin: 0;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Agency FB", "Tekton Pro", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    color: rgba(255, 95, 0, 0.7);
+    font-weight: bold;
+    font-size: 2.8vw;
+    font-family: "Monotype Corsiva"
+}
+
+h3 {
+    color: #a63e00;
+    font-size: 2.5vw;
+}
+
+p {
+    color: #ff5f00;
+    font-size: 1.3vw;
+    margin: 5% 0 10% 0;
+}
+
+#corpo-site {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    width: 35%;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#botao-admin:active {
+    transform: scale(0.7)
+}
+
+.div-login {
+    width: 30%;
+    height: 80%;
+    border-radius: 5%;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px ridge #9b5e38;
+    border-radius: 40px 40px 0 40px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+}
+
+#botao-user, #botao-admin {
+    transition: transform .2s;
+}
+
+#botao-user:hover, #botao-admin:hover {
+    transform: scale(1.1)
+}
+
+.div-login:first-of-type {
+    border-radius: 40px 40px 40px 0;
+}
+
+.div-login:last-of-type {
+    justify-content: center;
+}
