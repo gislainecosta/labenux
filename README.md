@@ -19,7 +19,7 @@ Projeto semanal do curso que consistia em criar um site que vende viagens espaci
 
 ## Demonstração: 
 <p align="center">
-  <img align='center' height='400' src='https://github.com/gislainecosta/labenux/blob/master/Telas/demo.gif'>
+  <img align='center' height='400' src='https://docs.google.com/uc?id=1MoUMd-oLftcs78myTzV8_Zo38S-ZnW82'>
 </p>
 <br>
 
