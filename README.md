@@ -45,6 +45,6 @@ Projeto semanal do curso que consistia em criar um site que vende viagens espaci
 <p align="center">
   <img align='center' height='400' src='https://docs.google.com/uc?id=1ELb-u9NOtnC7xCnRMfXOeYce8S5DjF-R'>
 </p>
-<br>https://docs.google.com/uc?id=11_XnZMP58x52C8OnRO2Ias9RYc1-QPsJ
+<br>
 <br>
 
