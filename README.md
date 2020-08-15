@@ -15,7 +15,7 @@ Projeto semanal do curso que consistia em criar um site que vende viagens espaci
 <br><br>
 
 
-💻 [Deploy da aplicação](http://labenux-gislaine.surge.sh/)
+💻 [Deploy da aplicação (Otimizado para Desktop)](http://labenux-gislaine.surge.sh/)
 
 ## Demonstração: 
 <p align="center">
